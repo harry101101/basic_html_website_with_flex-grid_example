@@ -1,0 +1,13 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: rgb(2, 0, 0);
+    color: antiquewhite;
+}
+.products {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
